@@ -1,0 +1,40 @@
+header {
+  background-color: var(--color-yellow);
+  padding: 10px;
+}
+header img {
+  width: 200px;
+  display: block;
+  padding: 15px;
+}
+header h2 {
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+}
+
+.header-nav {
+  margin-left: 0px;
+}
+
+header input {
+  display: inline;
+  width: 200px;
+}
+
+.menuburger {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.burger-menu {
+  color: white;
+  background-color: var(--color-skyblue);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border-radius: 7px;
+}
