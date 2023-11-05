@@ -3,10 +3,27 @@ header {
   padding: 10px;
 }
 header img {
-  width: 200px;
-  display: block;
-  padding: 15px;
+  width: 45%;
 }
+
+.header_top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-input {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+header input {
+  margin-left: 5px;
+  width: 100%;
+}
+
 header h2 {
   margin: 10px 0;
   font-size: 14px;
@@ -14,16 +31,9 @@ header h2 {
   display: flex;
   justify-content: center;
 }
-
-.header-nav {
-  margin-left: 0px;
+.login-navbar i {
+  margin-left: 5px;
 }
-
-header input {
-  display: inline;
-  width: 200px;
-}
-
 .menuburger {
   margin: 5px;
   display: flex;
