@@ -1,0 +1,60 @@
+.formulario-registro{
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0;
+	gap: 30px;
+	align-items: center;
+}
+.formulario-registro input{
+	width: 90%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+
+	
+}
+
+.label-multiple{
+	margin-left: 7%;
+	align-self:flex-start;
+	font-weight: bold;
+}
+.usuario{
+	display: flex;
+	gap: 10px;
+	
+}
+.tipo-usuario{
+	display: flex;
+	justify-content:space-evenly;
+	width: 100%;
+}
+
+.formulario-registro section{
+	align-self: flex-start;
+}
+
+.formulario-registro section div{
+	display: flex;
+	align-items: start;
+	margin-left: 40%;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+.botones{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	gap: 10%;
+}
+
+.botones button{
+	width: 30%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: var(--color-skyblue);
+	color: white;
+}
+
