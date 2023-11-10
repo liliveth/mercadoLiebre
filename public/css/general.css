@@ -64,20 +64,20 @@ body {
 
   .home_section_article {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
-  }
-
-  .home_section_article {
     width: 45%;
   }
+
 }
 
+/* Media query de desktop */
 @media (min-width: 769px) {
   .home_section_article {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 23%;
   }
 
-  .home_section_article {
-    width: 20%;
+  .home_section_article h5{
+    font-size: 12px;
   }
 
   header img {
@@ -85,8 +85,13 @@ body {
   }
 
   header input {
+    position: relative;
     margin-left: 5px;
-    width: 80%;
+    width: 90%;
+  }
+
+  header input button{
+    position: absolute;
   }
 
   header h2 {
@@ -116,6 +121,12 @@ body {
   .menuburger {
     display: none;
   }
+  .footer-section-caja{
+    display: flex;
+    flex-direction: row;
+  }
+  
+
 }
 
 @media (max-width: 480px) {
@@ -125,5 +136,9 @@ body {
 
   .login-navbar {
     display: none;
+  }
+
+  .home_section_article:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
 }

@@ -16,6 +16,11 @@ main section article i {
   left: 85%;
   top: -28px;
   color: var(--color-green);
+  transition: transform 1s;
+}
+
+main section article i:hover {
+  transform: rotateZ(-90deg);
 }
 
 .banner {
@@ -40,7 +45,13 @@ main section article i {
   background-color: white;
   margin-bottom: 10px;
 }
-
+.home_section_article h5{
+  color: transparent;
+  transition: color 500ms;
+}
+.home_section_article h5:hover {
+  color: grey;
+}
 .precio {
   font-size: 18px;
   font-family: "roboto";

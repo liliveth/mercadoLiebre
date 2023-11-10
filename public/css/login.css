@@ -19,3 +19,7 @@
 	background-color: var(--color-skyblue);
 	color: white;
 }
+
+.enviar-login:hover{
+	background-color: #0022AA; 
+}
