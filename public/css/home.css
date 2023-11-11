@@ -17,10 +17,13 @@ main section article i {
   top: -28px;
   color: var(--color-green);
   transition: transform 1s;
+  /* transition: left 1s; */
 }
 
 main section article i:hover {
   transform: rotateZ(-90deg);
+  /* transform: rotateY(160deg);
+  left: 15%; */
 }
 
 .banner {
@@ -45,7 +48,7 @@ main section article i:hover {
   background-color: white;
   margin-bottom: 10px;
 }
-.home_section_article h5{
+.home_section_article h5 {
   color: transparent;
   transition: color 500ms;
 }
